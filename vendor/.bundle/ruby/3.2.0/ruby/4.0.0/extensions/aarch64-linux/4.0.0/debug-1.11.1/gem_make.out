@@ -1,0 +1,19 @@
+current directory: /usr/src/app/vendor/.bundle/ruby/3.2.0/ruby/4.0.0/gems/debug-1.11.1/ext/debug
+/usr/local/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /usr/src/app/vendor/.bundle/ruby/3.2.0/ruby/4.0.0/gems/debug-1.11.1/ext/debug
+make -j11 DESTDIR\= sitearchdir\=./.gem.20260324-1-o66jyg sitelibdir\=./.gem.20260324-1-o66jyg clean
+
+current directory: /usr/src/app/vendor/.bundle/ruby/3.2.0/ruby/4.0.0/gems/debug-1.11.1/ext/debug
+make -j11 DESTDIR\= sitearchdir\=./.gem.20260324-1-o66jyg sitelibdir\=./.gem.20260324-1-o66jyg
+compiling debug.c
+compiling iseq_collector.c
+linking shared-object debug/debug.so
+
+current directory: /usr/src/app/vendor/.bundle/ruby/3.2.0/ruby/4.0.0/gems/debug-1.11.1/ext/debug
+make -j11 DESTDIR\= sitearchdir\=./.gem.20260324-1-o66jyg sitelibdir\=./.gem.20260324-1-o66jyg install
+/usr/bin/install -c -m 0755 debug.so ./.gem.20260324-1-o66jyg/debug
+
+current directory: /usr/src/app/vendor/.bundle/ruby/3.2.0/ruby/4.0.0/gems/debug-1.11.1/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20260324-1-o66jyg sitelibdir\=./.gem.20260324-1-o66jyg clean
